@@ -1,0 +1,125 @@
+body {
+  margin: 25px;
+}
+
+.center{
+  text-align: center;
+}
+
+.flex-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.flexcont-aboutme-page{
+ display: flex;
+}
+
+.inlineblock a{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+.image-style-header-home{
+  max-height: 100%;
+  max-width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-style-aboutme-home{
+  max-height: 100%;
+  max-width: 100%;
+  height: 25px;
+  margin-top: 30px;
+}
+
+.image-style-aboutme-home:hover {
+  opacity: 0.6
+}
+
+.image-style-header{
+  max-height: 100%;
+  max-width: 100%;
+  height: 70px;
+}
+
+.image-style-aboutme{
+  margin-left: 10px;
+}
+
+.image-style:hover {
+  opacity: 0.6
+}
+
+.image-style{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.image-style-aboutme-page{
+  height: 500px; 
+  margin-right: 50px; 
+  margin-top: 20px;"
+}
+
+.text-Roboto20{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-OpenSans20{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-OpenSans15{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-selected{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #5f7378;
+}
+
+.links{
+  text-decoration: none;
+  color: #7d959b;
+  margin-left: 30px;
+}
+
+.links:hover {
+  opacity: 0.6
+}
+
+.gallery{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.gallery .images{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  margin-top: 20px;
+}
+
+.gallery .images img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
