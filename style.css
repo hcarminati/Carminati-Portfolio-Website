@@ -92,6 +92,18 @@ body {
   color: #5f7378;
 }
 
+.button {
+  background-color: #7d959b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
 .links{
   text-decoration: none;
   color: #7d959b;
@@ -118,6 +130,45 @@ body {
 .gallery .images img{
   width: 100%;
   padding-bottom: 15px;
+}
+
+
+/*Hover Image*/
+.container {
+  position: relative;
+  height: 96%; 
+  width: 80%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #769FA4;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
